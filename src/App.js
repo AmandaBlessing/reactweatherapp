@@ -6,27 +6,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Johannesburg" />
 
-        <footer>
-          This project was coded by{" "}
-          <a
-            href="https://www.delac.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Amanda khumalo
-          </a>{" "}
-          and is{" "}
-          <a
-            href="https://github.com/AmandaBlessing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            open-sourced on GitHub
-          </a>{" "}
-          and{" "}
-        </footer>
       </div>
     </div>
   );
